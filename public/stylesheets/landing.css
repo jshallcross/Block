@@ -7,11 +7,17 @@ body {
 .navbar{
   border: solid white 2px;
 }
+a {
+  color: white;
+}
+ a :hover {
+  color:#0688c8;
+ }
 
 #main-jumbo{
     text-align: center;
     background-image: url("/images/wine.jpeg");
-    background-position: center;
+    background-position:50% 70%;
     background-repeat: no-repeat ;
     background-size: cover;
     height: 100%;
