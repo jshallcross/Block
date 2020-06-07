@@ -5,53 +5,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/stylesheets/landing.css">
 
     </head>
-    <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a href="/g" class="navbar-brand">The Block Co</a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <body class="d-flex flex-column">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            
+            <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="/" class="nav-item nav-link  active">Home</a>
                     <a href="/whatWeDo" class="nav-item nav-link">What We Do</a>
+                    <a href="#" class="nav-item nav-link">B.Y.O.B</a>
                     <a href="#" class="nav-item nav-link">Gallery</a>
                     <a href="#" class="nav-item nav-link">Get In Touch</a>
                 </div>
             </div>
         </nav>
-        <div class="jumbotron d-flex align-items-center" id="main-jumbo">
-            <div class="container">
-              <h1 class="display-1">The Block Co</h1>
-              <hr class="style-eight after">
-              <p class="lead">Wine | Cheese | Charcuterie</p>
-              
+        <div class="container-fluid" id="title">
+            <h1 class="display-3" id="brand">The Block Co</h1>
+            <hr class="style-eight after">
+            <p class="lead" id="WCC">Wine | Cheese | Charcuterie</p>
+
+        </div>
+        <div class="container-fluid" id="main-jumbo">
+            <div class="row justify-content-center">
+                <div class="col-xl-12 col-">
+
+              </div>
             </div>
           </div>
 
-        <div class="jumbotron d-flex align-items-center"id="ad-jumbo">
-            <div class="container">
-              <h1 class="display-1"><a class="link" href="#">B.Y.O.B</a></h1>
-              <hr class="style-eight after">
-              <p class="lead">Bring Your Own Board</p>
+        <div class="container-fluid" id="ad-jumbo">
+            <div class="row align-items-center">
+                <div class="col-xl-12 col-">
+              <h1 class="display-3">Our Obsessions</h1>
+              <p class="lead">In my opinion, nothing is better than entertaining friends and family. What could make or break said get together is the food. Well ok, maybe wine, bourbon and beer can attribute. Like the time cousin Bob guzzled the 150$ bottle of Caymus out of a beer mug. But I digress, we all like to impress our friends. Whether it’s showing off the deer head you hunted in a blinding snow storm and lost two of your toes due to frostbite. Or showing off the Persian rug you purchased in Peru. For me it’s having the rarest selection of fine meats, cheese and wine. A great stogie and bourbon to finish is always welcome.</p>
+                <p class="lead">When All Else Fails, Cheese!</p>
+            </div>
             </div>
           </div>
-        <div class="social">
-            <div class="social-buttons">
+        <div class="container-fluid" id="social">
+            <div class="row align-items-center">
+            <div class="col-xl-12 col- " id="social-buttons">
             <a href="https://www.facebook.com/theblockcoBurlington"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/TheBlockCo_"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/theblockco2016/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
+        </div>
 
     
     <footer>
-        <p>Copyright &copy 2020 The Block Co. Developed by 
-            <a class="publisher" href="#">Jon Shallcross</a> 
+        <p><small> &copy 2020 The Block Co. Developed by 
+            <a class="publisher" href="#">Jon Shallcross</a></small> 
         </p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
