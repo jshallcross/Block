@@ -7,6 +7,11 @@ body {
 .navbar{
 
 }
+img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
 a {
   color: white;
 }
@@ -47,6 +52,14 @@ a {
   color: white;
   font-family: 'Dancing Script', cursive;
   
+  
+}
+.display-5{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
   
 }
 
@@ -144,4 +157,6 @@ hr.style-eight:after {
 
   .test {
     color: white;
+    text-align: center;
+    padding-left: 25px;
   }
