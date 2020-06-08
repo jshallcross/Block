@@ -10,6 +10,9 @@ app.get("/", function(req, res){
 app.get("/whatWeDo", function(req, res){
     res.render("whatWeDo");
 });
+app.get("/BYOB", function(req, res){
+    res.render("BYOB");
+});
 
 
 

@@ -7,6 +7,19 @@ body {
 .navbar{
 
 }
+label {
+  color: white;
+  padding-right: 10px;
+}
+#form {
+  
+  
+  align-self: center;
+
+}
+.form-check{
+  color: white;
+}
 img {
   padding-top: 20px;
   padding-bottom: 20px;
