@@ -16,7 +16,7 @@ app.get("/BYOB", function(req, res){
 app.get("/Gallery", function(req, res){
     res.render("Gallery");
 });
-app.get("getintouch", function(req, res){
+app.get("/getintouch", function(req, res){
     res.render("getintouch");
 });
 
