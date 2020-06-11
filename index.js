@@ -13,6 +13,12 @@ app.get("/whatWeDo", function(req, res){
 app.get("/BYOB", function(req, res){
     res.render("BYOB");
 });
+app.get("/Gallery", function(req, res){
+    res.render("Gallery");
+});
+app.get("getintouch", function(req, res){
+    res.render("getintouch");
+});
 
 
 
