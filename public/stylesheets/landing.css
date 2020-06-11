@@ -1,3 +1,5 @@
+
+
 body {
     background:#292b2c;
 }
@@ -36,7 +38,7 @@ a {
  }
 
 #main-jumbo{
-    background-image: url("/images/charc2.jpeg");
+    background-image: url("/images/IG_board_6.jpg");
     background-position:center;
     background-repeat: no-repeat ;
     background-size: cover;
